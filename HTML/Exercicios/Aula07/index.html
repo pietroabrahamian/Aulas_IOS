@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+<header>
+    <h1>Formulário de Cadrastro</h1>
+</header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Cadastro:</legend>
+            <label for="nome">Nome:</label>
+            <br>
+            <input type="text" required>
+            <br>
+            <p>Qual o seu sexo?</p>
+            <input type="radio" name="sexo" id="masculino">
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" name="sexo" id="feminino">
+            <label for="feminino">Feminino</label>
+        </fieldset>
+            <br>
+            <fieldset>
+                <legend>Informações:</legend>
+            <p>Quais estilos musicas você prefere?</p>
+            <input type="checkbox">
+            <label for="louvor">Louvor</label>
+            <br>
+            <input type="checkbox">
+            <label for="samba">Samba</label>
+            <br>
+            <input type="checkbox">
+            <label for="pagode">Pagode</label>
+            <br>
+            <input type="checkbox">
+            <label for="funk">Funk</label>
+            <br>
+            <input type="checkbox">
+            <label for="kpop">K-POP</label>
+            <br>
+            <input type="checkbox">
+            <label for="classica">Clássica</label>
+            <br><br>
+            <label for="cor">Selecione sua cor favorita:</label>
+            <select name="" id="">
+                <option value="Amarelo">Amarelo</option>
+                <option value="Vermelho">Vermelho</option>
+                <option value="Verde">Verde</option>
+                <option value="Preto">Preto</option>
+                <option value="Azul">Azul</option>
+                <option value="Rosa">Rosa</option>
+                <option value="Roxo">Roxo</option>
+                <option value="Marrom">Marrom</option>
+                <option value="Branco">Branco</option>
+                <option value="Cinza">Cinza</option>
+            </select>
+            <br><br>
+            <label for="Iios">Qual unidade IOS é mais próxima de você?</label>
+            <input list="ios" name="Uios" id="Iios" placeholder="Unidade IOS">
+            <datalist id="ios">
+                <option value="Santana - SP"></option>
+                <option value="Itaquera - SP"></option>
+                <option value="Jardim Ângela - SP"></option>
+                <option value="Santo Amaro - SP"></option>
+                <option value="Diadema - SP"></option>
+                <option value="Hortolândia - SP"></option>
+                <option value="Barueri - SP"></option>
+                <option value="Rio de Janeiro - RJ"></option>
+                <option value="Belo Horizonte - MG"></option>
+                <option value="Recife - PE"></option>
+                <option value="Curitiba – PR"></option>
+                <option value="Porto Alegre - RS"></option>
+            </datalist>
+        </fieldset>
+            <br><br>
+
+            <fieldset>
+                <legend>Deixe sua opinião:</legend>
+                <p>Deixe sugestões/críticas para podermos melhorar!</p>
+                <textarea name="sugestoes" id="sugestao" cols="30" rows="10"
+                    placeholder="Deixe aquei sua sugestão!"></textarea>
+            </fieldset>
+            <br><br>
+            <input type="button" value="Enviar">
+        </form>
+    </main>
+</body>
+
+</html>

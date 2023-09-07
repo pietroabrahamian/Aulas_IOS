@@ -1,0 +1,27 @@
+body {
+    background-color: lightseagreen;
+    text-align: center;
+
+
+}
+h1 {
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-shadow: 3px 3px 5px #0044ff;
+    font-size: 2em;
+
+}
+p {
+    color: rgb(238, 232, 177);
+    font-style: normal;
+}
+h2 {
+    color: #0044ff;
+    line-height: 30px;
+    text-indent: 10rem;
+}
+footer >h2 {
+    color: hsl(34, 100%, 88%);
+    text-shadow: 3px 3px 5px rgb(228, 96, 19);  
+}

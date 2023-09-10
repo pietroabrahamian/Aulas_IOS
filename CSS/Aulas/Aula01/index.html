@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Aula01</title>
 </head>
@@ -12,9 +13,9 @@
     <header>
         <a href="index.html">Home Page</a>
         <nav>
-            <a href="#">Habilidades</a>
-            <a href="#">Sobre mim</a>
-            <a href="#">Contatos</a>
+            <a id="link1"  href="#">Habilidades</a>
+            <a id="link2" href="#">Sobre mim</a>
+            <a id="link3" href="#">Contatos</a>
         </nav>
         <div class="botoes">
             <button class="register">Register</button>
@@ -32,8 +33,8 @@
                 <img src="img/rosto.jpeg" alt="foto da alice">
             </div>
         </section>
-        <section class="habilidades ''">
-            <h2>Habilidades:</h2>
+        <section class="habilidades">
+            <h2 class="tipo-habilidade">Habilidades:</h2>
             <ul type="none">
                 <li>Pacote Office</li>
                 <li>Internet Básica</li>
@@ -57,7 +58,7 @@
         <footer>
             <h2>Contatos:</h2>
             <ul type="none">
-                <li><a href="https://instagram.com/_licemendonca?igshid=MzRlODBiNWFlZA==">Instagram</a></li>
+                <li class="icon-insta"><a href="https://instagram.com/_licemendonca?igshid=MzRlODBiNWFlZA=="><img src="img/instagram-line.png" alt="instagram"></a></li>
                 <li><a href="tel:+5511984754051">(11) 98475-4051</a></li>
             </ul>
         </footer>

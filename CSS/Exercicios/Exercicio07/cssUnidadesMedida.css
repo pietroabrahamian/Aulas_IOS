@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0; /* margin */
+    padding: 0; /* padding */
+}
+
+:root {
+    --dark: #334569;
+    --azul-escuro: #14316C;
+    --azul-escuro2: #2253B5;
+    --azul: #2C6BE8;
+    --azul-claro: #749CEC;
+}
+
+body {
+    font-size: 17px;
+    background-image: url(img/minimalist.jpg);
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    font-size: 0, 26cm; /* Medida Absoluta*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header a {
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #EA952B;
+    transition: 0.5s;
+}
+header a:hover {
+    color: #d88928;
+    transition: 0.5s;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh; /* Medida Relativa*/
+}
+
+article {
+    width: 50%;
+    padding: 1rem; /* Medida Relativa*/
+    font-size: 0,20in; /* Medida Absoluta*/
+}
+
+article h1 {
+    font-size: 2em; /*Media Relativa*/
+}
+
+section {
+    font-size: 30px; /* Medida Absoluta*/
+}
+
+img {
+    border: 1em; /* Medida Relativa*/
+    width: 30vw; /* Medida Relativa*/
+    height: auto;
+}
+
+figure {
+
+    width: 30vw; /* Medida Relativa*/
+    height: auto;
+    padding: 0.01em; /* Medida Relativa*/
+
+}
+
+figcaption {
+    font-size: 1rem; /* Medida Relativa*/
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 16px; /* Media Absoluta*/
+}
+
+footer a {
+    border: 1px solid white; /* border */
+    padding: 0.5em; /*Media Relativa*/
+    text-decoration: none;
+    color: black;
+    background-color: #f5ca96;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+footer a:hover {
+    background-color: #f5ca96dc;
+    color: #353535;
+    transition: 0.5s;
+}

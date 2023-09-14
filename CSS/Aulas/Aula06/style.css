@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    border: solid 2px red;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px;
+}
+article {
+    background-color: cadetblue;
+    margin: 20px;
+    padding: 15px;
+}
+

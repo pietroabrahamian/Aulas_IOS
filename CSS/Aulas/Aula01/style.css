@@ -46,7 +46,11 @@ nav>a {
     text-decoration: none;
     color: white;
 }
+nav>a:hover {
+    color: #749CEC;
+    transition: 0.5s;
 
+}
 .botoes {
     display: flex;
     gap: 1rem;

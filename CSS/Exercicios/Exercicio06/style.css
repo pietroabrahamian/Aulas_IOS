@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+body {
+    margin: 2rem; 
+}
+.top {
+    width: 80vw;
+    height: 10vh;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border-top: 2px dotted red;
+    border-bottom: 4px solid red;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+}
+.bottom {
+    margin: 2rem;
+}
+button {
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+button>a {
+    color: white;
+    text-decoration: none;
+}

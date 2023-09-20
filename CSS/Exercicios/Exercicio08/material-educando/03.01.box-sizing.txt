@@ -1,0 +1,7 @@
+Exemplo box-sizing
+
+Esse elemento section foi configurado com largura 300px e altura 200px.
+
+Esse elemento section foi configurado com largura 300px e altura 200px, mas o navegador
+está calculando largura total = 351 (width = 300 + padding = 50 + border = 1) e altura total = 251 (height = 200
++ padding = 50 + border = 1).

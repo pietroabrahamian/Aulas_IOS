@@ -1,0 +1,5 @@
+Exemplo box-sizing
+
+Esse elemento section foi configurado com largura 300px e altura 100px.
+
+Esse elemento section foi configurado com largura 300px e altura 100px.

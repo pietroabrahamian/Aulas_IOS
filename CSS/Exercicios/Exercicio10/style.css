@@ -1,0 +1,22 @@
+ @media screen and (max-width:350px) {
+    img {
+        display: none;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+ }
+ @media screen and (max-width:600px) {
+    p {
+        text-align: justify;
+        padding: 20px;
+    }
+ }
+ @media screen and (min-height: 850px) and (max-width: 950px) {
+    body {
+        background-color: silver;
+    }
+ }  

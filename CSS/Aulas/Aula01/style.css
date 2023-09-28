@@ -3,6 +3,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    scroll-behavior: smooth;
 }
 
 /* Variáveis */
@@ -19,6 +20,7 @@ body {
     background-color: var(--dark);
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+
 }
 
 /* Header */

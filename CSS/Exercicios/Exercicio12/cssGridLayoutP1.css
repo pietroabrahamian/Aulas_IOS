@@ -14,8 +14,8 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
     row-gap: 1rem;
     column-gap: 1rem;
     padding: 2rem;
@@ -70,29 +70,29 @@ body {
 }
 
 .grid4{
-    width: 300px;
-    height: 200px;
+    /* width: 300px;
+    height: 200px; */
     border: 1px solid #c3c3c3;
     display: grid;
     justify-content: center;
 
 }
 .grid-4 {
-    width: 50px;
-    height: 50px;
+    width: 2em;
+    height: 2em;
     border: 1px solid black;
     background-color: darkred;
 }
 .grid5 {
-    width: 300px;
-    height: 200px;
+    /* width: 300px;
+    height: 200px; */
     border: 1px solid black;
     display: grid;
     align-content: center;
 }
 .grid-5 {
-    width: 50px;
-    height: 50px;
+    width: 2em;
+    height: 2em;
     border: 1px solid black;
     background-color: greenyellow;
 }

@@ -1,0 +1,5 @@
+let fruta1 = "Banana"
+let fruta2 = "Uva"
+let fruta3 = "Maça"
+let fruta4 = "Manga"
+let fruta5 = "  Melancia"

@@ -8,8 +8,8 @@
 
 body {
     overflow-x: hidden;
-    display: grid;
-    grid-template-rows: 20vh 80vh 100vh 100vh 100vh;
+    /* display: grid;
+    grid-template-rows: 20vh 80vh 400vh 100vh; */
     font-family: 'Poppins', sans-serif;
 
 }
@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 header>a {
@@ -62,7 +62,7 @@ nav {
     width: 100%;
   } */
   .box {
-    width: 8.291666666666667vw;
+    width: 8.999666666666667vw;
     height: auto;
     float: left;
     transition: .5s linear;
@@ -74,7 +74,7 @@ nav {
     /* margin: 0 5px; */
     background: transparent;
     text-transform: uppercase;
-    /* font-weight: 900; */
+    font-size: 1.3rem;
 
   }
   
@@ -106,13 +106,15 @@ nav {
   
   .box:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
   }
   
   .box:hover:before {
     border-color: #F0AA29;
     height: 100%;
     transform: translateX(0);
-    transition: .2s transform linear, .2s height linear .2s;
+    transition: .2s transform linear, .2s height linear .2s; 
+    cursor: pointer;
   }
   
   .box:hover:after {
@@ -120,6 +122,7 @@ nav {
     height: 100%;
     transform: translateX(0);
     transition: .2s transform linear, .2s height linear .2s;
+    cursor: pointer;
   }
   
   nav>a {
@@ -162,6 +165,11 @@ nav {
 }
 
 /* SOBRE MIM */
+
+main {
+  display: grid;
+  grid-template-rows: 100vh 100vh 100vh 100vh;
+}
 .sobre-mim {
     display: flex;
     justify-content: center;
@@ -179,26 +187,37 @@ nav {
 }
 
 .text-sobre-mim {
-    width: 50%;
+    width: 40%;
+    height: 70%;
+    border-radius: 20px;
+    margin-right: 5vw;
+    margin-left: 10%;
     padding: 1rem;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-items: center;
     align-items: center;
-    justify-content: stretch;
-    gap: 1rem;
+    justify-content: center;
+    gap: 2rem;
+    box-shadow: 8px 10px 60px rgba(0, 0, 0, 0.219), -8px -10px 60px rgba(0, 0, 0, 0.219);
 }
 
 .text-sobre-mim h2 {
-    justify-content: flex-start;
+  justify-content: flex-start;
     color: #F0AA29;
+    font-size: 4rem;
+    text-shadow: 1px 1px 1px #d19421;
+}
+.text-sobre-mim p {
+  padding: 0rem 9rem;
 }
 
 .formacao {
     border: 1px solid black;
     border-radius: 10px;
-    width: 50%;
+    width: 90%;
+    height: 35%;
+
 }
 
 .formacao img {
@@ -210,7 +229,7 @@ nav {
 }
 
 .formacao-cursos {
-    padding: 0.5rem;
+    padding: 0.2rem;
     display: flex;
     justify-content: space-evenly;
     gap: 0.7em;
@@ -231,6 +250,27 @@ nav {
     text-decoration: underline #F0AA29 1px;
 }
 
+
+/* HABILIDADES */
+.habilidades {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 10rem;
+  border: 1px solid black;
+}
+.habilidades h2 {
+  font-size: 5rem;
+  color: #F0AA29;
+  text-shadow: 1.5px 1.5px 1px #d19421;
+}
+
+
+
 /* PROJETOS */
 
 
@@ -247,6 +287,8 @@ nav {
 }
 .projetos h2{
   font-size: 5rem;
+  color: #F0AA29;
+  text-shadow: 1px 1px 1px #d19421;
 }
 .projetos-git {
   display: flex;

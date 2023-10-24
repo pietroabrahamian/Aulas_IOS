@@ -1,5 +1,5 @@
 let alunos = [{
-    nome1: "Pietro",
+    nome: "Pietro",
     sobrenome: "Abrahamian",
     notas: [10, 4, 9, 5],
     diciplina:"Matematica",
@@ -41,7 +41,23 @@ let alunos = [{
     faltas: 0,
 }
 ];
-for (let media = alunos; media = notas; media) {
-    const element = array[index];
-    
-}
+
+for (let i of alunos ){
+    let media = 0;
+  
+    for (let n of i.notas) {
+      media += n;
+    }
+  
+    let mediaSoma = media / 4;
+  
+    if (mediaSoma >= 7) {
+      console.log(
+        `Aluno com o nome ${i.nome}, que mora em ${i.endereco.rua}, tem a média de ${mediaSoma}, portando foi aprovado`
+      );
+    } else {
+      console.log(
+        `Aluno com o nome ${i.nome}, que mora em ${i.endereco.rua}, tem a média de ${mediaSoma}, portando foi reprovado`
+      );
+    }
+  }

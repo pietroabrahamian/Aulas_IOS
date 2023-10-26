@@ -1,7 +1,7 @@
 let funcionarios = [
     {
         nome: "Wally",
-        salario: 4800
+        salario: 9800
     },
     {
         nome: "Benjamim",
@@ -46,8 +46,9 @@ console.log(filtroSalarial);
 
 // PROCURANDO O WALLY
 let cadeWally = novoSalário.find((procura) =>{
-    return procura.nome === "Wally"
+    procura.nome === "Wally"
 })
+
 console.log(cadeWally);
 
 

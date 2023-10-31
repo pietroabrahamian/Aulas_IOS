@@ -45,8 +45,8 @@ console.log(filtroSalarial);
 
 
 // PROCURANDO O WALLY
-let cadeWally = novoSalário.find((procura) =>{
-    procura.nome === "Wally"
+let cadeWally = filtroSalarial.find((procura) =>{
+    return procura.nome === "Wally"
 })
 
 console.log(cadeWally);
